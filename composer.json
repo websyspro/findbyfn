@@ -5,7 +5,7 @@
   "type": "library",
   "autoload": {
       "psr-4": {
-          "Websyspro\\Commons\\": "src/"
+          "Websyspro\\FindByFn\\": "src/"
       }
   },
   "authors": [
@@ -14,5 +14,7 @@
           "email": "websyspro.services@gmail.com"
       }
   ],
-  "require": {}
+  "require": {
+    "websyspro/common": "dev-main"
+  }
 }

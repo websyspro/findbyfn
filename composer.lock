@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "35b882ad15ec0b1807856d1c7f06196c",
+    "packages": [
+        {
+            "name": "websyspro/common",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/websyspro/common.git",
+                "reference": "4c237d73ebdcd2c4cd29ef2f788e510935265f4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/websyspro/common/zipball/4c237d73ebdcd2c4cd29ef2f788e510935265f4b",
+                "reference": "4c237d73ebdcd2c4cd29ef2f788e510935265f4b",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Websyspro\\Commons\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "websyspro",
+                    "email": "websyspro.services@gmail.com"
+                }
+            ],
+            "description": "Set of PHP features for use in Libraries",
+            "support": {
+                "issues": "https://github.com/websyspro/common/issues",
+                "source": "https://github.com/websyspro/common/tree/main"
+            },
+            "time": "2025-05-01T21:28:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "websyspro/common": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
